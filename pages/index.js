@@ -24,7 +24,7 @@ import { useState } from "react";
               padding: 16,
               boxShadow: "0 4px 12px rgba(0,0,0,0.05)"
             }}>
-              <img src={p.img} style={{ width: "100%", borderRadius: 12 }} />
+              <img src={p.img} style={{ width: "100%" }} alt="product" />
               <h3>{p.name}</h3>
               <p style={{ color: "#888" }}>NT$ {p.price}</p>
 
