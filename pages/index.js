@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const products = [
-  { id: 1, name: "經典蒙奇奇", price: 680 },
-  { id: 2, name: "情侶蒙奇奇", price: 1280 }
+  { id: 1, name: "海賊王限定款", price: 680 },
+  { id: 2, name: "抹茶限定款", price: 1280 }
 ];
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: 40 }}>
-      <h1>🐒 蒙奇奇專賣店</h1>
+      <h1>暄寶日本連線代購</h1>
 
       {products.map(p => (
         <div key={p.id}>
