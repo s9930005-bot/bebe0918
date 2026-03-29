@@ -8,7 +8,7 @@ import { useState } from "react";
         padding: "60px 20px",
         textAlign: "center"
       }}>
-        <h1 style={{ fontSize: 36 }}>🐒 Monchhichi Store</h1>
+        <h1 style={{ fontSize: 36 }}>Monchhichi Store</h1>
         <p style={{ color: "#666" }}>療癒系收藏 · 送禮首選</p>
       </div>
 
